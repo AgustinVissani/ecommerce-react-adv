@@ -10,3 +10,25 @@
   display: flex;
   gap: 1rem;
 }
+
+.filters select {
+  border-radius: 5px; 
+  border: 1px solid #646cff; 
+  background-color: #1d1120;
+  transition: border-color 0.25s, background-color 0.25s; 
+}
+
+.filters select:hover {
+  border-color: #646cff; 
+}
+
+.filters select:focus {
+  outline: none; 
+  border-color: #646cff; 
+}
+
+.filters label {
+  font-size: 20px; 
+  font-weight: 600; 
+  color: #ffff; 
+}
